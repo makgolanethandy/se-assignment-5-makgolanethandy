@@ -61,23 +61,80 @@ Answer the following questions based on your understanding of the installation a
 5. Extensions in VS Code:
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
  * Role of extensions- Allow us to add new features, provide support to additional programmes installed, and to improve productivity
-     - On the left side of 
+     - Extension can be found on the left side of VS code on the Activity bar
+     - ![Screenshot 2024-06-22 053417](https://github.com/makgolanethandy/se-assignment-5-makgolanethandy/assets/171442187/5d2c3419-7a81-4e07-93e3-4052ea4d785e)
+     - To install and manage Extensions: Click on Extension and click on the extension you want to 
+       install and select install button.
+     - Managing the extension can also be done throught the Extension view.
+       - To list installed, Click the dropdownm menu on installed
+       - To disable or uninstall extension, go to to the installed extension and select disable 
+        option. ![Screenshot 2024-06-22 054358](https://github.com/makgolanethandy/se-assignment-5-makgolanethandy/assets/171442187/378098fa-bb1e-4547-93fb-6381c6173dcc)
+     - Essenetial extensions for web development
+       - Prettier
 
-# Integrated Terminal:
+6. Integrated Terminal:
    - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
 
-7. File and Folder Management:
+* Go to the top menu bar.
+* Click on View.
+* Select Terminal
+* Select new terminal
+* Navigate i the terminal window
+   - allow you to run commands
+   - create multiple terminal by click the plus icon in the terminal panel
+   - or split terminal by clicking on the 'split terminal button'/ 'book icon
+
+ * Advantages:
+ - Allow for debugging and testing on the terminal
+ - Allow for integrated tools within the terminal therefore reducing swtching between applications
+
+8. File and Folder Management:
    - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+  * to create or open folder
+     - Open the Explorer panel
+     - Select File
+     - Select 'New file' to create a file, 'New folder' to create a new folder, 'Opne file' to open        existing file or 'Open folder' to open existing folder.
+  * Navigate between between files and directories
+    - Use the sidebar to navigate the directories and files structure quickly.    
 
-8. Settings and Preferences:
+9. Settings and Preferences:
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
-
+     * Finding and customizing the setting
+       - Go to top Menu bar
+       - Select file
+       - Followed by Preferences and then Settings
+       - Under text editor- set you preferred font
+       - Under workbench>Appearences> Set preferred theme
+       - For keybindings: Top menu bar>file>preferences>key shortcuts
+         
 9. Debugging in VS Code:
    - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+   - Go to file Extension
+   - Search python debugger
+   - Install it
+   - To start debug: Click run and debug on the side bar
+                   - Open a python file
+                   - Once file is open, Click where you want to set a breakpoint in the opened file
+                    -Click run and debug
+                   - Choose debug configuration 
+                
 
 10. Using Source Control:
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 
+*initializing a repository, making commits, and pushing changes to GitHub
+ * Go to git and create a repository on Git
+ * Copy the url linkof the repository
+ * Navigate to run the below commands
+   - git clone https://github.com/username/repository-name.git
+   - cd repository-name
+   - code. 
+* It will take you to VS code
+*Make your changes on VS code. Once done, run below command on VS code gitbash
+- git add .
+- git commit -m "commit message"
+- git push 
+   
  Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
 - Provide screenshots or step-by-step instructions where applicable.
